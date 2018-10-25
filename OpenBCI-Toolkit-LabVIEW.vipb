@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-04-15 14:03:52" Modified_Date="2018-04-15 15:13:44" Creator="cassani" Comments="" ID="c3a2bd81588aee9be7fa8e9e2b09515e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-04-15 14:03:52" Modified_Date="2018-10-25 12:56:27" Creator="cassani" Comments="" ID="ee18acf3f5a7a11c525b233ec3f91615">
   <Library_General_Settings>
     <Package_File_Name>MuSAE_Lab_lib_OpenBCI</Package_File_Name>
-    <Library_Version>1.1.2.9</Library_Version>
+    <Library_Version>1.1.3.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>openbci-toolkit-source</Library_Source_Folder>
     <Library_Output_Folder>VI_package</Library_Output_Folder>
@@ -37,7 +37,7 @@ Reading raw EEG data
       <Copyright/>
       <Packager>Raymundo Cassani</Packager>
       <URL>http://musaelab.ca/</URL>
-      <Release_Notes>Fixed unexpected EOT openbci_reset_register.vi</Release_Notes>
+      <Release_Notes>Fix issue with channel order in the 16-channel configuration</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -221,7 +221,7 @@ Reading raw EEG data
         <Path>openbci-toolkit-source\Comm Protocol</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B029EC24722381B4538C4661CE139E1</GUID>
+      <GUID>DF90DD0835517051F4293DBE8E97832F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -480,7 +480,7 @@ Reading raw EEG data
         <Path>openbci-toolkit-source\Comm Protocol\openbci_leadoff_impedance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2BD3D12FA2B775CB37373971675A9AD</GUID>
+      <GUID>B33C4B25B61A0AED3C9BB3117063E906</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
