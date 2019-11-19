@@ -6,7 +6,8 @@ This Toolkit Communication between the **OpenBCI Cyton** board and the computer 
 
 This toolkit handles the communication with the **OpenBCI Cyton** board and the **OpenBCI DONGLE**, by implementing the [OpenBCI communication protocol](http://docs.openbci.com/OpenBCI%20Software/04-OpenBCI_Cyton_SDK) in LabVIEW, to write (configuration) and read (configuration, raw EEG data and acceleration data) from the **OpenBCI Cyton** board. There are two hardware versions for the board: 8bit (based on ATmega328P) and 32 bits (based on PIC32MX250F128B); both versions possess 8 channels than can be extended to 16 channels using the [OpenBCI Daisy Module](http://docs.openbci.com/Hardware/02-Cyton#openbci-cyton-openbci-daisy-module).
 
-This toolkit (v 1.1.2) has been tested in the 8bit and 32bit versions with 8 and 16 channels.
+This toolkit has been tested in the 8bit and 32bit versions with 8 and 16 channels.
+With the 32bit boards having a firmware 2.x or higher.
 
 ## Installation
 To install the **BLE Toolkit for LabVIEW**, the **VI Package Manager 2017** by [JKI](http://jki.net/) is needed.
