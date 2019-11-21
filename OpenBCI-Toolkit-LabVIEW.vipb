@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-04-15 14:03:52" Modified_Date="2019-11-19 15:12:08" Creator="cassani" Comments="" ID="9a15790f601046f22dfa13d5962c55db">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-04-15 14:03:52" Modified_Date="2019-11-21 10:33:00" Creator="cassani" Comments="" ID="90ad0a1c647e133bdbed47ed18558256">
   <Library_General_Settings>
     <Package_File_Name>MuSAE_Lab_lib_OpenBCI</Package_File_Name>
-    <Library_Version>1.2.0.11</Library_Version>
+    <Library_Version>1.2.1.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>openbci-toolkit-source</Library_Source_Folder>
     <Library_Output_Folder>VI_package</Library_Output_Folder>
@@ -37,8 +37,7 @@ Reading raw EEG data
       <Copyright/>
       <Packager>Raymundo Cassani</Packager>
       <URL>http://musaelab.ca/</URL>
-      <Release_Notes>Change in the serial communication to Synchronous mode
-Adds detection of Daisy board</Release_Notes>
+      <Release_Notes>The size of the serial communication buffer can be controlled in the "openbci_new_cnx" VI</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -222,7 +221,7 @@ Adds detection of Daisy board</Release_Notes>
         <Path>openbci-toolkit-source\Comm Protocol</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F802111FDD50111800E899E29E10CD92</GUID>
+      <GUID>B7259E2005F919493CE1337D82A180AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -495,7 +494,7 @@ Adds detection of Daisy board</Release_Notes>
         <Path>openbci-toolkit-source\Support\openbci_is_daisy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>69384E30F184A9E3F274E716349C1AE6</GUID>
+      <GUID>46DAB4CD0E651BECA36E7808F98D9D64</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
