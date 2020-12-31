@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-04-15 14:03:52" Modified_Date="2020-12-30 21:03:00" Creator="cassani" Comments="" ID="5d8795e43379495cfbac75681beee06d">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-04-15 14:03:52" Modified_Date="2020-12-30 21:05:20" Creator="cassani" Comments="" ID="8d24f241de51ba45e0bd9d9efaf7036e">
   <Library_General_Settings>
     <Package_File_Name>MuSAE_Lab_lib_OpenBCI</Package_File_Name>
-    <Library_Version>1.2.0.2</Library_Version>
+    <Library_Version>1.2.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>openbci-toolkit-source</Library_Source_Folder>
     <Library_Output_Folder>VI_package</Library_Output_Folder>
